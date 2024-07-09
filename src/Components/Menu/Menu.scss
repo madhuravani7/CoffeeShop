@@ -1,0 +1,33 @@
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    align-items: flex-start;
+
+    .box{
+        text-align: center;
+        margin: 1.5rem;
+
+        img{
+            height: 20rem;
+            width: 20rem;
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            background-position: center;
+            object-fit: cover;
+            border: .5rem solid var(--darktext);
+        }
+
+        h3{
+            font-size: 2rem;
+            color: var(--darktext);
+            margin: 1rem 0;
+        }
+
+        p{
+            line-height: 1;
+            font-size: 1.5rem;
+            color: var(--lightcolor);
+        }
+    }
+}
