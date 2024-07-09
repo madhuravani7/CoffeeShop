@@ -1,0 +1,33 @@
+.home-bg {
+    width: 100%; /* Ensure the element takes full width */
+    background: linear-gradient(90deg, var(--white), transparent 70%), url('../../assets/cover.jpg') no-repeat;
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    object-fit: cover; /* Maintain aspect ratio of the image */
+  
+    .home {
+      height: 70rem;
+      display: flex;
+      align-items: center;
+
+      .content{
+        width: 50rem;
+        text-align: center;
+
+        h3{
+         font-size: 6rem;
+         color: var(--black);
+         font-family: 'Merienda', cursive;
+        }
+
+        p{
+            font-size: 1.5rem;
+            color: var(--black);
+            padding: 1rem 0;
+            line-height: 2;
+        }
+      }
+ 
+    }
+  }
+  
