@@ -16,8 +16,8 @@ const Navbar = () => {
         </a>
         <nav className={`navbar ${isMenuOpen ? 'active' : ''}`}>
           <a href="#home">Home</a>
-          <a href="#menu">Menu</a>
           <a href="#about">About</a>
+          <a href="#menu">Menu</a>
           <a href="#gallery">Gallery</a>
           <a href="#contact">Contact</a>
         </nav>

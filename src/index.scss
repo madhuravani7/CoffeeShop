@@ -34,6 +34,20 @@ section {
   max-width: 1200px;
   margin: 0 auto;
 }
+.heading{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heading img{
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.heading h3{
+  font-size: 3rem;
+  color: var(--black);
+}
 
 .btn{
   display: inline-block;
