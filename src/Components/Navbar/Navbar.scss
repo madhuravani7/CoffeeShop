@@ -1,0 +1,51 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: var(--border);
+    z-index: 1000;
+  
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      padding: 1.5rem 2rem;
+  
+      .logo {
+        i {
+          color: var(--darktext);
+          font-size: 5rem;
+  
+          &:hover {
+            color: var(--lightcolor);
+          }
+        }
+      }
+  
+      .navbar {
+        a {
+          margin-left: 2rem;
+          font-size: 2rem;
+          color: var(--darktext);
+          text-decoration: none;
+  
+          &:hover {
+            color: var(--lightcolor);
+          }
+        }
+      }
+  
+      #menu-btn {
+        display: none;
+        font-size: 3rem;
+        color: var(--darktext);
+        cursor: pointer;
+  
+        &:hover {
+          color: var(--lightcolor);
+        }
+      }
+    }
+}
