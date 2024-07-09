@@ -34,20 +34,33 @@ section {
   max-width: 1200px;
   margin: 0 auto;
 }
+//common heading styling
 .heading{
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 2rem;
+ 
+
+  i{
+    font-size: 3rem;
+    margin: 0 1rem;
+    color: var(--darktext);
+  }
+
+  img{
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  h3{
+    font-size: 3rem;
+    color: var(--darktext);
+    font-family: 'Merienda', cursive;
+  }
 }
 
-.heading img{
-  height: 3rem;
-  margin-bottom: 1rem;
-}
 
-.heading h3{
-  font-size: 3rem;
-  color: var(--black);
-}
 
 .btn{
   display: inline-block;
@@ -125,5 +138,9 @@ section {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  .heading{
+    font-size: 3rem;
   }
 }
