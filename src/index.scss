@@ -41,6 +41,14 @@ section {
   justify-content: center;
   margin-bottom: 2rem;
  
+//grid
+
+@mixin grid($val){
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap: 1.5rem;
+ }
+
 
   i{
     font-size: 3rem;

@@ -11,10 +11,8 @@ const Navbar = () => {
   return (
     <header className="header">
       <section className="flex">
-        <a href="#home" className="logo">
-          <i className="fas fa-mug-hot"></i>
-        </a>
-        <nav className={`navbar ${isMenuOpen ? 'active' : ''}`}>
+        <a href="#home" className="logo"><i className="fas fa-mug-hot"></i></a>
+        <nav className={`navbar ${isMenuOpen ? 'active' : ''}`}> 
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#menu">Menu</a>
